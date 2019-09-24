@@ -2,10 +2,11 @@
   "name": "lk-when",
   "version": "1.0.0",
   "description": "pattern matching 特性babel还没支持，有些寂寞，写个when 方法过渡一下。",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "jest --watch",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
