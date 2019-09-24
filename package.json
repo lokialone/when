@@ -1,0 +1,28 @@
+{
+  "name": "when",
+  "version": "1.0.0",
+  "description": "pattern matching 特性babel还没支持，有些寂寞，写个when 方法过渡一下。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokialone/when.git"
+  },
+  "author": "lokialone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokialone/when/issues"
+  },
+  "homepage": "https://github.com/lokialone/when#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "nodemon": "^1.19.2"
+  }
+}
